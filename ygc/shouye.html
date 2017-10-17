@@ -53,9 +53,12 @@
     document.documentElement.style.fontSize=innerWidth/15+"px";
     var mySwiper = new Swiper ('.swiper-container', {
         direction: 'vertical',
-        loop: true,
+
         autoplayDisableOnInteraction:false,
         effect : 'coverflow',
+        slidesPerView: 3,
+        centeredSlides: true,
+
 
 
     })

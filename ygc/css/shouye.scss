@@ -25,12 +25,12 @@ html{
       }
 
       #header_cbl{
-          width: 200/$sc+rem;height: 130/$sc+rem;position: fixed;top: 392/$sc+rem;left: 2/$sc+rem;
+          width: 200/$sc+rem;height: 600/$sc+rem;position: fixed;top: 300/$sc+rem;left: 2/$sc+rem;
         #header_cbl_ul{
           width: 200/$sc+rem;height:100/$sc+rem ;
           .swiper-slide{
             width: 200/$sc+rem;height: 100/$sc+rem;margin: 0;
-          border: 1px solid white;font-size: 50/$sc+rem;text-align: center;line-height: 100/$sc+rem;
+          border: 1px solid white;font-size: 50/$sc+rem;text-align: center;line-height: 200/$sc+rem;
           }
 
         }
