@@ -14,7 +14,7 @@ html body header .header_box div:nth-of-type(3) ul li { display: inline-block; w
 html body header .header_box div:nth-of-type(3) ul li:nth-of-type(1) { top: 0.4rem; left: -0.6rem; background: rosybrown; }
 html body header .header_box div:nth-of-type(3) ul li:nth-of-type(2) { top: 0.4rem; left: 0.4rem; background: yellow; }
 html body header .header_box div:nth-of-type(3) ul li:nth-of-type(3) { top: 0.4rem; left: 1.4rem; background: blue; }
-html body header #header_cbl { border-radius: 10%; width: 4rem; height: 10rem; position: fixed; top: -20rem; left: 0.04rem; transition: top 2s; }
+html body header #header_cbl { border-radius: 10%; width: 4rem; height: 10rem; position: fixed; top: -20rem; left: 0.04rem; }
 html body header #header_cbl #header_cbl_ul { width: 4rem; height: 2rem; border-right: 1px solid #546674; }
 html body header #header_cbl #header_cbl_ul .swiper-slide { color: #546674; width: 4rem; height: 2rem; margin: 0; font-size: 0.8rem; text-align: center; line-height: 3.6rem; }
 html body header .cbl_childer, html body header .cbl_childer .us1 body header .cbl_childer, html body header .cbl_childer .us2 body header .cbl_childer, html body header .cbl_childer .us3 body header .cbl_childer, html body header .cbl_childer .us4 body header .cbl_childer, html body header .cbl_childer .us5 body header .cbl_childer, html body header .cbl_childer .us6 body header .cbl_childer, html body header .cbl_childer .us7 body header .cbl_childer { width: 6rem; height: 16rem; position: fixed; top: 9rem; left: 4.4rem; }
