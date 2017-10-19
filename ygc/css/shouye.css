@@ -1,92 +1,30 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
+* { margin: 0; padding: 0; list-style: none; }
 
-html, html body {
-  width: 100%;
-  height: 100%; }
-  html body {
-    position: relative;
-    padding-bottom: 50px;
-    box-sizing: border-box;
-    background: #f4f4f4; }
-    html body header {
-      width: 15rem;
-      height: 3rem;
-      background: lightblue;
-      position: fixed;
-      top: 0;
-      z-index: 99999; }
-      html body header .header_box {
-        width: 100%;
-        height: 100%;
-        position: relative; }
-        html body header .header_box div:nth-of-type(1) {
-          background: red;
-          width: 1rem;
-          height: 1rem;
-          position: absolute;
-          top: 1rem;
-          left: 0.8rem; }
-        html body header .header_box div:nth-of-type(2) {
-          font-family: 'hdjxingshudced8300c1aaa5';
-          line-height: 3rem;
-          text-align: center;
-          font-size: 0.88rem;
-          width: 9.2rem;
-          height: 3rem;
-          position: absolute;
-          left: 2.2rem; }
-        html body header .header_box div:nth-of-type(3) {
-          width: 1.6rem;
-          height: 1.6rem;
-          background: rebeccapurple;
-          position: absolute;
-          top: 0.7rem;
-          left: 12.2rem; }
-          html body header .header_box div:nth-of-type(3) ul {
-            position: relative; }
-            html body header .header_box div:nth-of-type(3) ul li {
-              display: inline-block;
-              width: 0.8rem;
-              height: 0.8rem;
-              position: absolute;
-              border-radius: 50%;
-              display: none; }
-            html body header .header_box div:nth-of-type(3) ul li:nth-of-type(1) {
-              top: 0.4rem;
-              left: -0.6rem;
-              background: rosybrown; }
-            html body header .header_box div:nth-of-type(3) ul li:nth-of-type(2) {
-              top: 0.4rem;
-              left: 0.4rem;
-              background: yellow; }
-            html body header .header_box div:nth-of-type(3) ul li:nth-of-type(3) {
-              top: 0.4rem;
-              left: 1.4rem;
-              background: blue; }
-      html body header #header_cbl {
-        width: 4rem;
-        height: 12rem;
-        position: fixed;
-        top: 6rem;
-        left: 0.04rem; }
-        html body header #header_cbl #header_cbl_ul {
-          width: 4rem;
-          height: 2rem; }
-          html body header #header_cbl #header_cbl_ul .swiper-slide {
-            width: 4rem;
-            height: 2rem;
-            margin: 0;
-            border: 1px solid white;
-            font-size: 1rem;
-            text-align: center;
-            line-height: 4rem; }
-    html body section {
-      width: 15rem;
-      height: 100%;
-      position: absolute;
-      top: 3rem; }
+.ys, html body header .cbl_childer .us1 li, html body header .cbl_childer .us2 li, html body header .cbl_childer .us3 li, html body header .cbl_childer .us4 li, html body header .cbl_childer .us5 li, html body header .cbl_childer .us6 li, html body header .cbl_childer .us7 li { width: 100%; height: 1.6rem; text-align: center; line-height: 1.6; border-bottom: 1px solid #546670; background: #f4f3f4; opacity: 0.8; }
+
+html, html body, html body header .cbl_childer .us1, html body header .cbl_childer .us2, html body header .cbl_childer .us3, html body header .cbl_childer .us4, html body header .cbl_childer .us5, html body header .cbl_childer .us6, html body header .cbl_childer .us7 { width: 100%; height: 100%; }
+html body, html body header .cbl_childer .us1 body, html body header .cbl_childer .us2 body, html body header .cbl_childer .us3 body, html body header .cbl_childer .us4 body, html body header .cbl_childer .us5 body, html body header .cbl_childer .us6 body, html body header .cbl_childer .us7 body { position: relative; padding-bottom: 50px; box-sizing: border-box; background: #f4f3f4; }
+html body header, html body header .cbl_childer .us1 body header, html body header .cbl_childer .us2 body header, html body header .cbl_childer .us3 body header, html body header .cbl_childer .us4 body header, html body header .cbl_childer .us5 body header, html body header .cbl_childer .us6 body header, html body header .cbl_childer .us7 body header { width: 15rem; height: 3rem; background: lightblue; position: fixed; top: 0; z-index: 99999; }
+html body header .header_box, html body header .cbl_childer .us1 body header .header_box, html body header .cbl_childer .us2 body header .header_box, html body header .cbl_childer .us3 body header .header_box, html body header .cbl_childer .us4 body header .header_box, html body header .cbl_childer .us5 body header .header_box, html body header .cbl_childer .us6 body header .header_box, html body header .cbl_childer .us7 body header .header_box { width: 100%; height: 100%; position: relative; }
+html body header .header_box div:nth-of-type(1) { background: red; width: 1rem; height: 1rem; position: absolute; top: 1rem; left: 0.8rem; }
+html body header .header_box div:nth-of-type(2) { font-family: 'hdjxingshudced8300c1aaa5'; line-height: 3rem; text-align: center; font-size: 0.88rem; width: 9.2rem; height: 3rem; position: absolute; left: 2.2rem; }
+html body header .header_box div:nth-of-type(3) { width: 1.6rem; height: 1.6rem; background: rebeccapurple; position: absolute; top: 0.7rem; left: 12.2rem; }
+html body header .header_box div:nth-of-type(3) ul { position: relative; }
+html body header .header_box div:nth-of-type(3) ul li { display: inline-block; width: 0.8rem; height: 0.8rem; position: absolute; border-radius: 50%; display: none; }
+html body header .header_box div:nth-of-type(3) ul li:nth-of-type(1) { top: 0.4rem; left: -0.6rem; background: rosybrown; }
+html body header .header_box div:nth-of-type(3) ul li:nth-of-type(2) { top: 0.4rem; left: 0.4rem; background: yellow; }
+html body header .header_box div:nth-of-type(3) ul li:nth-of-type(3) { top: 0.4rem; left: 1.4rem; background: blue; }
+html body header #header_cbl { border-radius: 10%; width: 4rem; height: 10rem; position: fixed; top: -20rem; left: 0.04rem; transition: top 2s; }
+html body header #header_cbl #header_cbl_ul { width: 4rem; height: 2rem; border-right: 1px solid #546674; }
+html body header #header_cbl #header_cbl_ul .swiper-slide { color: #546674; width: 4rem; height: 2rem; margin: 0; font-size: 0.8rem; text-align: center; line-height: 3.6rem; }
+html body header .cbl_childer, html body header .cbl_childer .us1 body header .cbl_childer, html body header .cbl_childer .us2 body header .cbl_childer, html body header .cbl_childer .us3 body header .cbl_childer, html body header .cbl_childer .us4 body header .cbl_childer, html body header .cbl_childer .us5 body header .cbl_childer, html body header .cbl_childer .us6 body header .cbl_childer, html body header .cbl_childer .us7 body header .cbl_childer { width: 6rem; height: 16rem; position: fixed; top: 9rem; left: 4.4rem; }
+html body header .cbl_childer .us1 { display: none; }
+html body header .cbl_childer .us2 { display: none; }
+html body header .cbl_childer .us3 { display: none; }
+html body header .cbl_childer .us4 { display: none; }
+html body header .cbl_childer .us5 { display: none; }
+html body header .cbl_childer .us6 { display: none; }
+html body header .cbl_childer .us7 { display: none; }
+html body section, html body header .cbl_childer .us1 body section, html body header .cbl_childer .us2 body section, html body header .cbl_childer .us3 body section, html body header .cbl_childer .us4 body section, html body header .cbl_childer .us5 body section, html body header .cbl_childer .us6 body section, html body header .cbl_childer .us7 body section { width: 15rem; height: 100%; position: absolute; top: 3rem; }
 
 /*# sourceMappingURL=shouye.css.map */
