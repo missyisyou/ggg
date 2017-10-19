@@ -25,7 +25,8 @@ $(function(){
 			'top':'250px'
 			},400)
 		}
-		if(headCbl.offset().top==325){
+//		console.log(headCbl.offset().top)
+		if(headCbl.offset().top==250){
 			headCbl.animate({
 			'top':'-500px'
 			},400)
